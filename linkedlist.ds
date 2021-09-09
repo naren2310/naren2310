@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+void insert()
+{
+    Node new_node= new Node(new_data);
+    new_node.next = null;
+    Node last = head;
+    while(last.next!=null)
+    last = last.next;
+    last.next = new_node;
+    return;
+}
