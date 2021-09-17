@@ -1,0 +1,129 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body 
+{
+    background-color:#77b5fe;
+    width: 50%;
+}
+.container
+{
+    border: 5px solid #FFFFFF;
+    box-shadow: 1px 1px 1px 1px;
+    width:500px;
+    height:600px;
+    position: relative;
+    margin-top:115px;
+    left:450px;
+    background-color: #FFFFFF;
+    
+}
+.he1
+{
+    font-size:18px;
+    color:black;
+    position: relative;
+     margin-top:150px;
+     left: 75px;
+}
+.username
+{
+   position: absolute;
+    top: 201px;
+    left: 90px;
+    height: 33px;
+    width: 311px;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+}
+.email
+{
+    position: absolute;
+    top: 267px;
+    left: 90px;
+    height: 33px;
+    width: 311px;
+    border:none;
+    border-bottom: 2px solid whitesmoke;
+}
+.pass
+{
+    position: absolute;
+    top: 330px;
+    left: 90px;
+    height: 33px;
+    width: 311px;
+    border:none;
+    border-bottom: 2px solid whitesmoke;
+}
+.repass
+{
+    position: absolute;
+    top: 390px;
+    left: 90px;
+    height: 33px;
+    width: 311px;
+    border:none;
+    border-bottom: 2px solid whitesmoke;
+}
+.fa-user:before {
+    content: "\f007";
+    position: relative;
+    top: 28px;
+    left: 23px;
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+    position: relative;
+    top: 97px;
+    right: 10px;
+}
+
+.fa-lock-alt:before {
+    content: "\f30d";
+    position: relative;
+    top: 160px;
+    right: 43px;
+
+}
+.fa-lock:before {
+    content: "\f023";
+    position: relative;
+    top: 225px;
+    right: 75px;
+}
+.button
+{
+    padding-top:20px;
+    width: 75%;
+    position: relative;
+    top: 253px;
+    left: 70px;
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+    
+
+}
+.sp1
+{
+    position: relative;
+    float: left;
+    top: 280px;
+    left: 107px;
+    color:black;
+}
+.a1
+{
+    position: relative;
+    float: right;
+    top: 282px;
+    right: 184px;
+}
+.l1
+{
+    color: white;
+}
